@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+.Main_Div{
+	width: 100%;
+	height: 26rem;
+	position: relative;
+	/* background-color: rgb(79, 112, 141); */
+	background-image: url("lucifer.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.Title{
+	position: absolute;
+	left: 1.7rem;
+	top: 0;
+	height: 4rem;
+	width: 3rem;
+	cursor: pointer;
+}
+.Icon{
+	position: absolute;
+	right: 2rem;
+	top:1rem;
+}
+
+.icon{
+	width: 3rem;
+	height:3rem;
+	cursor: pointer;
+}
+
+.Head_inner{
+	color: aliceblue;
+	padding-top: 8rem;
+	padding-left: 2rem;
+	width: 40rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+
+}
+.m_title{
+	text-transform: uppercase;
+	font-size: 2.3rem;
+	padding:.5rem 0;
+	
+}
+.btn{
+	padding: 1rem 0;
+	display: flex;
+	gap: 1rem;
+}
+button{
+	height: 2.5rem;
+	width: 7.5rem;
+	background-color: rgba(53, 50, 50, 0.7);
+	border: none;
+	outline: none;
+	color: aliceblue;
+	border-radius: 5px;
+	font-family: 'Poor Story', cursive;
+	font-size: 1rem;
+	font-weight:bold;
+	letter-spacing: 3px;
+}
+button:hover{
+	color: black;
+	background-color: white;
+	transition-duration: 0.5s;
+
+}
+.linner{
+	background-image: linear-gradient(180deg, transparent, rgba(37, 37, 37, .61), #111);
+		bottom: 0;
+		height: 7.2rem;
+		left: 0;
+		position: absolute;
+		width: 100%;
+}
+.pera{
+	font-size: 1.3rem;
+	font-family: 'Inconsolata', monospace;
+}

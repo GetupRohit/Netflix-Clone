@@ -1,0 +1,15 @@
+.M_img{
+	width: 13rem;
+	border-radius: 3px;
+}
+.M_img:hover {
+	transform: scale(1.1);
+	transition-duration: 0.5s;
+	cursor: pointer;
+
+}
+.orgT{
+	color: rgb(34, 43, 51);
+	z-index: 1;
+	background-color: aliceblue;
+}

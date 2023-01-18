@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+.img_div {
+	display: flex;
+	overflow-x: scroll;
+	padding: 2rem;
+	gap: 2rem;
+}
+
+.Main_img {
+	width: 20rem;
+	border-radius: 3px;
+	position: relative;
+}
+.Main_img>span{
+position: absolute;
+top: 5rem;
+left: 2rem;
+}
+.Main_img:hover{
+	transform: scale(1.1);
+	transition-duration: 0.5s;
+	cursor: pointer;
+
+}
+h1 {
+	font-size: 1.8rem;
+	display: flex;
+	padding: 1rem;
+	color: aliceblue;
+}
+
+.img_div::-webkit-scrollbar {
+	width: 5px;
+	height: 5px;
+
+}
+
+
+
+.img_div::-webkit-scrollbar-thumb {
+	background-color: rgb(61, 58, 58);
+	border-radius: 20px;
+
+
+}
+span{
+	color: aqua;
+	font-size: 1.2rem;
+	font-family: 'Poor Story', cursive;
+	letter-spacing: 2px;
+}
